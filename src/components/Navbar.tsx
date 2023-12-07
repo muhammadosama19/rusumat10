@@ -50,6 +50,12 @@ export default function Navbar() {
                   >
                     Palettes
                   </Link>
+                  <Link
+                    href="/icons"
+                    className=" hover:bg-[#272727] hover:text-white dark:text-[#fcfcfc] rounded-md px-3 py-2 text-sm font-medium"
+                  >
+                    Icons
+                  </Link>
                 </div>
               </div>
             </div>
