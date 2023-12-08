@@ -5,6 +5,7 @@ import './globals.css'
 
 //! VERCEL
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 
 // TODO: imports Components
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
+        <SpeedInsights />
         <Analytics />
       </body>
     </html>
